@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    background-color: rgba(240, 128, 128, 0.569);
+}
+
+table {
+    width: 450px;
+    opacity: 1;
+}
+
+th {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.td-title {
+    font-size: 14px;
+    font-weight: 500;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    padding: 0px 10px 0px 10px;
+} 
+
+.td-container {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100px;
+}
+
+.td-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+} 
+
+.img-descreption {
+    font-size: 10px;
+    text-align: center;
+}
+/*
+.form-container {
+    width: 350px;
+    border: 1px solid;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.edit legend {
+    text-align: center;
+}
+
+.input-control input {
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.input-control input:hover {
+    opacity: 0.9; 
+}
+
+.input-control:nth-child(7) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.edit-school {
+    border: none;
+    margin-bottom: 10px;
+} */
