@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <header>
+        <ul>
+            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#trajetoria">Trajetória</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#orientacoes">Orientações</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <table>
+            <tr class="tr-description">
+                <th>FASE</th>
+                <th>Descrição</th>
+                <th>Imagem</th>
+            </tr>
+
+            <tr class="tr-container">
+                <td class="td-title">Primeira</td>
+                <td class="td-container">inscrição no site oficial, execução do teste de lógica, curso da trilha zero e
+                    montagem do pitch.
+                </td>
+                <td class="td-title">
+                    <figure>
+                        <img src="./img/img1.jpg">
+                        <figcaption class="img-descreption">Descrição</figcaption>
+                    </figure>
+                </td>
+            </tr>
+            <tr class="tr-container">
+                <td class="td-title">Segunda</td>
+                <td class="td-container">Teste trilha zero e entrevista com recrutador para avaliação da
+                    bolsa, nesta fase se analisa a eligibilidade para a bolsa de estudos perante os clientes e o
+                    candidato.
+                </td>
+                <td class="td-title">
+                    <figure>
+                        <img src="./img/img2.jpg">
+                        <figcaption class="img-descreption">Descrição</figcaption>
+                    </figure>
+                </td>
+            </tr>
+            <tr class="tr-container">
+                <td class="td-title">Terceira</td>
+                <td class="td-container">Dinâmica em grupo com a realização de teste on-line e convocação
+                    dosalunosaprovados.
+                </td>
+                <td class="td-title">
+                    <figure>
+                        <img src="./img/img3.jpg">
+                        <figcaption class="img-descreption">Descrição</figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+
+        <div class="container-form">
+            <form action="#" autocomplete="off" class="form-container" id="cadastro">
+                <div class="input-control">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="input-control">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                </div>
+
+                <div class="input-control">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Digite seu email" required>
+                </div>
+
+                <div class="input-control">
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" id="nascimento" required>
+                </div>
+
+                <div class="input-control">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+
+                <div>
+                    <fieldset class="edit">
+                        <legend>Deficiencia:</legend>
+                        <label for="deficiencia">Sim</label>
+                        <input type="radio" name="deficiencia">
+
+                        <label for="deficiencia">Não</label>
+                        <input type="radio" name="deficiencia">
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>Nível Escolar:</legend>
+                        <div class="edit-school">
+                            <label>Fundamental
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Médio
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Bacharel
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Tecnólogo
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Licenciado
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Pós Graduado
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Mestre
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+
+                            <label>Doutorado
+                                <input type="radio" name="escolaridade" id="escolaridade">
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="input-control">
+                    <label for="experiencia">Qual foi sua experiência com programação:</label>
+                    <input type="range" id="experiencia">
+                </div>
+                <div class="input-control">
+                    <label for="descricao">Descrição da Experiência:</label>
+                    <textarea id="descricao" cols="50" rows="3"
+                        placeholder="Descreva as tecnologias que você conhece" required></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

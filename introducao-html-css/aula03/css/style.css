@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(138,187,224);
+}
+
+header {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(138,187,224,1) 0%, rgba(76,171,176,1) 50%, rgba(61,170,199,0.9416141456582633) 92%);
+    overflow: hidden;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    gap: 5%;
+}
+
+ul {
+    list-style: none;
+    margin-left: 5%;
+    
+} 
+
+li a {
+   padding: 10px 15px;
+    background-color: #3d6ed6;;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #0151ff;
+    opacity: 0.9;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+}
+
+table {
+    margin-top: 5%;
+    width: 450px;
+}
+
+th {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.td-title {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    padding: 0px 10px 0px 10px;
+} 
+
+.td-container {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100px;
+}
+
+.td-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+} 
+
+.img-descreption {
+    font-size: 10px;
+    text-align: center;
+}
+
+.container-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-container {
+    width: 350px;
+    border: 1px solid;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    padding: 5px 0px 7px 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.edit legend {
+    text-align: center;
+}
+
+.input-control input {
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.input-control input:hover {
+    opacity: 0.9; 
+}
+
+.edit-school {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.edit-school label {
+    margin-bottom: 5px;
+}
+
+fieldset {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+}
+
+fieldset legend {
+    text-align: center;
+}
+
+textarea {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+textarea:hover {
+    opacity: 0.9;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    cursor: pointer;
+    border: none;
+    padding: 7px 18px 7px 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: crimson;
+    opacity: 0.7;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn button:hover {
+    opacity: 0.9;
+    background-color: crimson;
+}
