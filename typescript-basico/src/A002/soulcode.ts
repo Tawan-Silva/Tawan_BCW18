@@ -114,7 +114,16 @@ console.log(pessoa1);
 
 // Classes 2° Forma
 class Pessoa2 {
+<<<<<<< HEAD
   constructor(public nome: string, public idade: number, public peso: number, public altura: number) {} // Obrigatório
+=======
+  constructor(
+    public nome: string,
+    public idade: number,
+    public peso: number,
+    public altura: number,
+  ) {} // Obrigatório
+>>>>>>> 12f69b0e6a6b308a43365853a648a6043e83a0ee
 
   calculaImc() {
     let imc = this.peso / this.altura ** 2;

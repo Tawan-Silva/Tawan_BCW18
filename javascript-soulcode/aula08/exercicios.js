@@ -23,6 +23,11 @@ const censuraEmail = (email => {
 
 console.log(censuraEmail(email));
     
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 12f69b0e6a6b308a43365853a648a6043e83a0ee
 // Exercício III(FILTER): Crie um arrays com nomes de pessoas. Cada nome tem
 // o formato "Nome Sobrenome", filtre desse array apenas pessoas da família
 // "Souza".
